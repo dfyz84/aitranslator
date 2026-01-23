@@ -85,7 +85,7 @@ class ConfigParser:
             "--llm_service",
             type=str,
             default=None,
-            help="LLM service to use - should be full import path, like src.services.gemini.GoogleGeminiService",
+            help="LLM service to use - should be full import path, like src.services.ollama.OllamaService",
         )(fn)
         return fn
 

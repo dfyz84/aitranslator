@@ -2,7 +2,7 @@ import json
 from concurrent.futures import ThreadPoolExecutor
 
 from pydantic import BaseModel
-from typing import Annotated, Optional, List
+from typing import Annotated, List
 
 from tqdm import tqdm
 
@@ -112,7 +112,7 @@ Schema
 
     def inference_single_chunk(
         self, page_markdown: str
-    ) -> Optional[PageExtractionSchema]:
+    ) -> PageExtractionSchema | None:
         prompt = self.page_extraction_prompt.replace(
             "{{page_md}}", page_markdown
         ).replace("{{schema}}", json.dumps(self.page_schema))

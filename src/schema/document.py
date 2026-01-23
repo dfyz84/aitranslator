@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import List, Sequence, Optional
+from typing import List, Sequence
 
 from pydantic import BaseModel
 
@@ -85,14 +85,14 @@ class Document(BaseModel):
         return None
 
     def assemble_html(
-        self, child_blocks: List[Block], block_config: Optional[dict] = None
+        self, child_blocks: List[Block]
     ):
         template = ""
         for c in child_blocks:
             template += f"<content-ref src='{c.id}'></content-ref>"
         return template
 
-    def render(self, block_config: Optional[dict] = None):
+    def render(self, block_config: dict | None):
         child_content = []
         section_hierarchy = None
         for page in self.pages:
@@ -102,7 +102,7 @@ class Document(BaseModel):
 
         return DocumentOutput(
             children=child_content,
-            html=self.assemble_html(child_content, block_config),
+            html=self.assemble_html(child_content),
         )
 
     def contained_blocks(self, block_types: Sequence[BlockTypes] = None) -> List[Block]:
