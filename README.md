@@ -1,12 +1,20 @@
 # AI-translator
 
-
+# Быстрый setup
 ```
 poetry install
 pip uninstall torch torchvision torchaudio
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cuVERSION
-convert_single.py
---output_format markdown --use_llm --llm_service=src.services.ollama.OllamaService --ollama_base_url http://localhost:11434 --ollama_model deepseek-r1:7b --output_dir ./out --translate Russian
+```
+Заменить VERSION на версию CUDA
+# Варианты CLI для запуска
+* Для отдельного файла с переводом и llm
+```bash
+convert_single.py --output_format markdown --use_llm --llm_service=src.services.ollama.OllamaService --ollama_base_url http://localhost:11434 --ollama_model deepseek-r1:7b --output_dir ./out --translate Russian
+```
+* Для отдельного файла без llm и без перевода
+```bash
+convert_single.py --output_format markdown --output_dir ./out
 ```
 ## Getting started
 
