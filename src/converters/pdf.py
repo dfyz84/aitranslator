@@ -48,7 +48,7 @@ from src.schema.registry import register_block_class
 from src.util import strings_to_classes
 from src.processors.llm.llm_handwriting import LLMHandwritingProcessor
 from src.processors.order import OrderProcessor
-from src.services.gemini import GoogleGeminiService
+from src.services.ollama import OllamaService
 from src.processors.line_merge import LineMergeProcessor
 from src.processors.llm.llm_mathblock import LLMMathBlockProcessor
 from src.processors.llm.llm_page_correction import LLMPageCorrectionProcessor
@@ -101,7 +101,7 @@ class PdfConverter(BaseConverter):
         BlankPageProcessor,
         DebugProcessor,
     )
-    default_llm_service: BaseService = GoogleGeminiService
+    default_llm_service: BaseService = OllamaService
 
     def __init__(
         self,
