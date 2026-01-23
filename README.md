@@ -1,7 +1,13 @@
 # AI-translator
 
 
-
+```
+poetry install
+pip uninstall torch torchvision torchaudio
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cuVERSION
+convert_single.py
+--output_format markdown --use_llm --llm_service=src.services.ollama.OllamaService --ollama_base_url http://localhost:11434 --ollama_model deepseek-r1:7b --output_dir ./out --translate Russian
+```
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.

@@ -1,17 +1,10 @@
 [tool.poetry]
-name = "marker-pdf"
-version = "1.10.1"
+name = "ai-pdf-converter"
+package-mode = false
+version = "1.0.0"
 description = "Convert documents to markdown with high speed and accuracy."
-authors = ["Vik Paruchuri <github@vikas.sh>"]
-repository = "https://github.com/VikParuchuri/marker"
+authors = ["Ivan Petrenko dfyz.2015@yandex.ru"]
 keywords = ["pdf", "markdown", "ocr", "nlp"]
-#packages = [
-#    {include = "marker"}
-#]
-#include = [
-#    "marker/scripts/*.sh",
-#    "marker/scripts/*.html",
-#]
 
 [tool.poetry.dependencies]
 python = "^3.10"
