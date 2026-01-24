@@ -88,7 +88,11 @@ def process_single_pdf(args):
         rendered = converter(fpath)
         translation_target = cli_options.get("translate")
         if translation_target:
-            rendered = translate_rendered_output(rendered, translation_target)
+            rendered = translate_rendered_output(
+                rendered,
+                translation_target,
+                llm_service=model_refs.get("llm_service"),
+            )
         out_folder = config_parser.get_output_folder(fpath)
         save_output(rendered, out_folder, base_name)
         page_count = converter.page_count

@@ -73,6 +73,12 @@ class ConfigParser:
             default=None,
             help="Translate the output into the specified target language (e.g., 'Russian').",
         )(fn)
+        fn = click.option(
+            "--use_llm_translation",
+            is_flag=True,
+            default=False,
+            help="Use the configured LLM service only for the translation stage (without enabling LLM processors).",
+        )(fn)
 
         # we put common options here
         fn = click.option(
@@ -122,7 +128,9 @@ class ConfigParser:
 
     def get_llm_service(self):
         # Only return an LLM service when use_llm is enabled
-        if not self.cli_options.get("use_llm", False):
+        use_llm_processors = self.cli_options.get("use_llm", False)
+        use_llm_translation = self.cli_options.get("use_llm_translation", False)
+        if not (use_llm_processors or use_llm_translation):
             return None
 
         service_cls = self.cli_options.get("llm_service", None)
