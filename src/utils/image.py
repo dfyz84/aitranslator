@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 from typing import List
 
-def is_blank_image(image: Image.Image, polygon: List[List[int]] | None) -> bool:
+def is_blank_image(image: Image.Image, polygon: List[List[int]] | None = None) -> bool:
     image = np.asarray(image)
     if (
         image is None
