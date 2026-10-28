@@ -1,0 +1,1316 @@
+INFO:     Started server process [42564]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Recognizing Layout:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Layout: 100%|##########| 1/1 [00:24<00:00, 24.73s/it]Recognizing Layout: 100%|##########| 1/1 [00:24<00:00, 24.73s/it]
+Running OCR Error Detection:   0%|          | 0/1 [00:00<?, ?it/s]Running OCR Error Detection: 100%|##########| 1/1 [00:00<00:00,  4.26it/s]Running OCR Error Detection: 100%|##########| 1/1 [00:00<00:00,  4.26it/s]
+Detecting bboxes: 0it [00:00, ?it/s]Detecting bboxes: 0it [00:00, ?it/s]
+Recognizing Text:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Text: 100%|##########| 1/1 [00:18<00:00, 18.60s/it]Recognizing Text: 100%|##########| 1/1 [00:18<00:00, 18.60s/it]
+Recognizing tables:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing tables: 100%|##########| 1/1 [00:02<00:00,  2.57s/it]Recognizing tables: 100%|##########| 1/1 [00:02<00:00,  2.57s/it]
+Detecting bboxes: 0it [00:00, ?it/s]Detecting bboxes: 0it [00:00, ?it/s]
+Recognizing Layout:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Layout: 100%|##########| 1/1 [00:26<00:00, 26.07s/it]Recognizing Layout: 100%|##########| 1/1 [00:26<00:00, 26.07s/it]
+Running OCR Error Detection:   0%|          | 0/1 [00:00<?, ?it/s]Running OCR Error Detection: 100%|##########| 1/1 [00:00<00:00,  3.72it/s]Running OCR Error Detection: 100%|##########| 1/1 [00:00<00:00,  3.70it/s]
+Detecting bboxes: 0it [00:00, ?it/s]Detecting bboxes: 0it [00:00, ?it/s]
+Recognizing Text:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Text: 100%|##########| 1/1 [00:13<00:00, 13.33s/it]Recognizing Text: 100%|##########| 1/1 [00:13<00:00, 13.33s/it]
+Recognizing tables:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing tables: 100%|##########| 1/1 [00:02<00:00,  2.83s/it]Recognizing tables: 100%|##########| 1/1 [00:02<00:00,  2.83s/it]
+Detecting bboxes: 0it [00:00, ?it/s]Detecting bboxes: 0it [00:00, ?it/s]
+Recognizing Layout:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Layout: 100%|##########| 1/1 [00:24<00:00, 24.37s/it]Recognizing Layout: 100%|##########| 1/1 [00:24<00:00, 24.37s/it]
+Running OCR Error Detection:   0%|          | 0/1 [00:00<?, ?it/s]Running OCR Error Detection: 100%|##########| 1/1 [00:00<00:00,  4.11it/s]Running OCR Error Detection: 100%|##########| 1/1 [00:00<00:00,  4.11it/s]
+Detecting bboxes: 0it [00:00, ?it/s]Detecting bboxes: 0it [00:00, ?it/s]
+Recognizing Text:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Text: 100%|##########| 1/1 [00:09<00:00,  9.25s/it]Recognizing Text: 100%|##########| 1/1 [00:09<00:00,  9.25s/it]
+Recognizing tables:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing tables: 100%|##########| 1/1 [00:01<00:00,  1.97s/it]Recognizing tables: 100%|##########| 1/1 [00:01<00:00,  1.97s/it]
+Detecting bboxes: 0it [00:00, ?it/s]Detecting bboxes: 0it [00:00, ?it/s]
+Recognizing Layout:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Layout: 100%|##########| 1/1 [00:34<00:00, 34.71s/it]Recognizing Layout: 100%|##########| 1/1 [00:34<00:00, 34.71s/it]
+Running OCR Error Detection:   0%|          | 0/1 [00:00<?, ?it/s]Running OCR Error Detection: 100%|##########| 1/1 [00:00<00:00,  3.44it/s]Running OCR Error Detection: 100%|##########| 1/1 [00:00<00:00,  2.85it/s]
+Detecting bboxes: 0it [00:00, ?it/s]Detecting bboxes: 0it [00:00, ?it/s]
+Recognizing Text:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Text: 100%|##########| 1/1 [00:18<00:00, 18.73s/it]Recognizing Text: 100%|##########| 1/1 [00:18<00:00, 18.73s/it]
+Recognizing tables:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing tables: 100%|##########| 1/1 [00:02<00:00,  2.45s/it]Recognizing tables: 100%|##########| 1/1 [00:02<00:00,  2.45s/it]
+Detecting bboxes: 0it [00:00, ?it/s]Detecting bboxes: 0it [00:00, ?it/s]
+2026-06-17 20:24:22,634 [INFO] src: Translation chunk #1 attempt 1 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+2026-06-17 20:24:26,780 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EE570>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:24:26,780 [INFO] src: Translation chunk #1 attempt 1 raw response: {}
+2026-06-17 20:24:26,781 [WARNING] src: LLM translation looked invalid on attempt 1/4; retrying.
+2026-06-17 20:24:26,781 [INFO] src: Translation chunk #1 attempt 2 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:24:30,791 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FCB92D20>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:24:30,791 [INFO] src: Translation chunk #1 attempt 2 raw response: {}
+2026-06-17 20:24:30,791 [WARNING] src: LLM translation looked invalid on attempt 2/4; retrying.
+2026-06-17 20:24:30,792 [INFO] src: Translation chunk #1 attempt 3 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:24:34,801 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD636930>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:24:34,802 [INFO] src: Translation chunk #1 attempt 3 raw response: {}
+2026-06-17 20:24:34,802 [WARNING] src: LLM translation looked invalid on attempt 3/4; retrying.
+2026-06-17 20:24:34,802 [INFO] src: Translation chunk #1 attempt 4 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:24:38,809 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FCB93050>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:24:38,809 [INFO] src: Translation chunk #1 attempt 4 raw response: {}
+2026-06-17 20:24:38,810 [WARNING] src: LLM translation looked invalid on attempt 4/4; retrying.
+2026-06-17 20:24:38,810 [ERROR] src: LLM translation failed; returning original chunk.
+2026-06-17 20:24:38,810 [INFO] src: Translation chunk #2 attempt 1 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+2026-06-17 20:24:42,818 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FCB916D0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:24:42,818 [INFO] src: Translation chunk #2 attempt 1 raw response: {}
+2026-06-17 20:24:42,818 [WARNING] src: LLM translation looked invalid on attempt 1/4; retrying.
+2026-06-17 20:24:42,819 [INFO] src: Translation chunk #2 attempt 2 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:24:46,844 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FCB918E0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:24:46,845 [INFO] src: Translation chunk #2 attempt 2 raw response: {}
+2026-06-17 20:24:46,845 [WARNING] src: LLM translation looked invalid on attempt 2/4; retrying.
+2026-06-17 20:24:46,845 [INFO] src: Translation chunk #2 attempt 3 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:24:50,853 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0ECE90>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:24:50,937 [INFO] src: Translation chunk #2 attempt 3 raw response: {}
+2026-06-17 20:24:50,937 [WARNING] src: LLM translation looked invalid on attempt 3/4; retrying.
+2026-06-17 20:24:50,938 [INFO] src: Translation chunk #2 attempt 4 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:24:54,959 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0ED490>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:24:54,959 [INFO] src: Translation chunk #2 attempt 4 raw response: {}
+2026-06-17 20:24:54,960 [WARNING] src: LLM translation looked invalid on attempt 4/4; retrying.
+2026-06-17 20:24:54,960 [ERROR] src: LLM translation failed; returning original chunk.
+2026-06-17 20:24:54,960 [INFO] src: Translation chunk #3 attempt 1 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+2026-06-17 20:24:58,968 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EEE70>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:24:58,968 [INFO] src: Translation chunk #3 attempt 1 raw response: {}
+2026-06-17 20:24:58,969 [WARNING] src: LLM translation looked invalid on attempt 1/4; retrying.
+2026-06-17 20:24:58,969 [INFO] src: Translation chunk #3 attempt 2 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:25:02,975 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FCE2C290>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:02,976 [INFO] src: Translation chunk #3 attempt 2 raw response: {}
+2026-06-17 20:25:02,976 [WARNING] src: LLM translation looked invalid on attempt 2/4; retrying.
+2026-06-17 20:25:02,976 [INFO] src: Translation chunk #3 attempt 3 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:25:06,982 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EF2F0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:06,982 [INFO] src: Translation chunk #3 attempt 3 raw response: {}
+2026-06-17 20:25:06,983 [WARNING] src: LLM translation looked invalid on attempt 3/4; retrying.
+2026-06-17 20:25:06,983 [INFO] src: Translation chunk #3 attempt 4 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:25:10,992 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0ECFB0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:10,992 [INFO] src: Translation chunk #3 attempt 4 raw response: {}
+2026-06-17 20:25:10,992 [WARNING] src: LLM translation looked invalid on attempt 4/4; retrying.
+2026-06-17 20:25:10,992 [ERROR] src: LLM translation failed; returning original chunk.
+2026-06-17 20:25:10,993 [INFO] src: Translation chunk #4 attempt 1 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+2026-06-17 20:25:15,001 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FCE2C0E0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:15,001 [INFO] src: Translation chunk #4 attempt 1 raw response: {}
+2026-06-17 20:25:15,002 [WARNING] src: LLM translation looked invalid on attempt 1/4; retrying.
+2026-06-17 20:25:15,002 [INFO] src: Translation chunk #4 attempt 2 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:25:19,010 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EE690>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:19,011 [INFO] src: Translation chunk #4 attempt 2 raw response: {}
+2026-06-17 20:25:19,011 [WARNING] src: LLM translation looked invalid on attempt 2/4; retrying.
+2026-06-17 20:25:19,011 [INFO] src: Translation chunk #4 attempt 3 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:25:23,026 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EF410>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:23,027 [INFO] src: Translation chunk #4 attempt 3 raw response: {}
+2026-06-17 20:25:23,027 [WARNING] src: LLM translation looked invalid on attempt 3/4; retrying.
+2026-06-17 20:25:23,027 [INFO] src: Translation chunk #4 attempt 4 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:25:27,034 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EE780>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:27,035 [INFO] src: Translation chunk #4 attempt 4 raw response: {}
+2026-06-17 20:25:27,035 [WARNING] src: LLM translation looked invalid on attempt 4/4; retrying.
+2026-06-17 20:25:27,036 [ERROR] src: LLM translation failed; returning original chunk.
+2026-06-17 20:25:27,036 [INFO] src: Translation chunk #5 attempt 1 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+2026-06-17 20:25:31,047 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD637470>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:31,047 [INFO] src: Translation chunk #5 attempt 1 raw response: {}
+2026-06-17 20:25:31,047 [WARNING] src: LLM translation looked invalid on attempt 1/4; retrying.
+2026-06-17 20:25:31,048 [INFO] src: Translation chunk #5 attempt 2 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:25:35,066 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0ECF50>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:35,066 [INFO] src: Translation chunk #5 attempt 2 raw response: {}
+2026-06-17 20:25:35,066 [WARNING] src: LLM translation looked invalid on attempt 2/4; retrying.
+2026-06-17 20:25:35,067 [INFO] src: Translation chunk #5 attempt 3 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:25:39,074 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EC530>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:39,074 [INFO] src: Translation chunk #5 attempt 3 raw response: {}
+2026-06-17 20:25:39,075 [WARNING] src: LLM translation looked invalid on attempt 3/4; retrying.
+2026-06-17 20:25:39,075 [INFO] src: Translation chunk #5 attempt 4 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:25:43,084 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EE4E0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:43,085 [INFO] src: Translation chunk #5 attempt 4 raw response: {}
+2026-06-17 20:25:43,085 [WARNING] src: LLM translation looked invalid on attempt 4/4; retrying.
+2026-06-17 20:25:43,085 [ERROR] src: LLM translation failed; returning original chunk.
+2026-06-17 20:25:43,086 [INFO] src: Post-edit chunk #1 attempt 1 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+2026-06-17 20:25:47,100 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD6372F0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:47,100 [INFO] src: Post-edit chunk #1 attempt 1 raw response: {}
+2026-06-17 20:25:47,100 [INFO] src: Post-edit chunk #1 attempt 2 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+2026-06-17 20:25:51,116 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EC830>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:51,116 [INFO] src: Post-edit chunk #1 attempt 2 raw response: {}
+2026-06-17 20:25:51,117 [WARNING] src: Post-edit failed for chunk #1; keeping original chunk.
+2026-06-17 20:25:51,118 [INFO] src: Post-edit chunk #2 attempt 1 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+2026-06-17 20:25:55,125 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EE390>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:55,125 [INFO] src: Post-edit chunk #2 attempt 1 raw response: {}
+2026-06-17 20:25:55,126 [INFO] src: Post-edit chunk #2 attempt 2 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+2026-06-17 20:25:59,146 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FCE16DE0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:25:59,147 [INFO] src: Post-edit chunk #2 attempt 2 raw response: {}
+2026-06-17 20:25:59,147 [WARNING] src: Post-edit failed for chunk #2; keeping original chunk.
+2026-06-17 20:25:59,147 [INFO] src: Post-edit chunk #3 attempt 1 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+2026-06-17 20:26:03,155 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EC410>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:26:03,155 [INFO] src: Post-edit chunk #3 attempt 1 raw response: {}
+2026-06-17 20:26:03,156 [INFO] src: Post-edit chunk #3 attempt 2 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+2026-06-17 20:26:07,174 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EC3B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:26:07,174 [INFO] src: Post-edit chunk #3 attempt 2 raw response: {}
+2026-06-17 20:26:07,175 [WARNING] src: Post-edit failed for chunk #3; keeping original chunk.
+2026-06-17 20:26:07,175 [INFO] src: Post-edit chunk #4 attempt 1 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+2026-06-17 20:26:11,187 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD636090>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:26:11,187 [INFO] src: Post-edit chunk #4 attempt 1 raw response: {}
+2026-06-17 20:26:11,188 [INFO] src: Post-edit chunk #4 attempt 2 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+2026-06-17 20:26:15,201 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FCE16930>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:26:15,201 [INFO] src: Post-edit chunk #4 attempt 2 raw response: {}
+2026-06-17 20:26:15,202 [WARNING] src: Post-edit failed for chunk #4; keeping original chunk.
+2026-06-17 20:26:15,202 [INFO] src: Post-edit chunk #5 attempt 1 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+2026-06-17 20:26:19,227 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EFB90>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:26:19,227 [INFO] src: Post-edit chunk #5 attempt 1 raw response: {}
+2026-06-17 20:26:19,228 [INFO] src: Post-edit chunk #5 attempt 2 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+2026-06-17 20:26:23,240 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0ED910>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:26:23,240 [INFO] src: Post-edit chunk #5 attempt 2 raw response: {}
+2026-06-17 20:26:23,241 [WARNING] src: Post-edit failed for chunk #5; keeping original chunk.
+2026-06-17 20:26:23,241 [INFO] src: Translated markdown output to Russian using OllamaService
+Recognizing Layout:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Layout: 100%|##########| 1/1 [00:24<00:00, 24.49s/it]Recognizing Layout: 100%|##########| 1/1 [00:24<00:00, 24.49s/it]
+Running OCR Error Detection:   0%|          | 0/1 [00:00<?, ?it/s]Running OCR Error Detection: 100%|##########| 1/1 [00:00<00:00,  3.64it/s]Running OCR Error Detection: 100%|##########| 1/1 [00:00<00:00,  3.64it/s]
+Detecting bboxes: 0it [00:00, ?it/s]Detecting bboxes: 0it [00:00, ?it/s]
+Recognizing Text:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Text: 100%|##########| 1/1 [00:09<00:00,  9.61s/it]Recognizing Text: 100%|##########| 1/1 [00:09<00:00,  9.61s/it]
+Recognizing tables:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing tables: 100%|##########| 1/1 [00:01<00:00,  1.92s/it]Recognizing tables: 100%|##########| 1/1 [00:01<00:00,  1.92s/it]
+Detecting bboxes: 0it [00:00, ?it/s]Detecting bboxes: 0it [00:00, ?it/s]
+2026-06-17 20:27:20,992 [INFO] src: Translation chunk #1 attempt 1 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+2026-06-17 20:27:25,006 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD634BC0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:27:25,006 [INFO] src: Translation chunk #1 attempt 1 raw response: {}
+2026-06-17 20:27:25,006 [WARNING] src: LLM translation looked invalid on attempt 1/4; retrying.
+2026-06-17 20:27:25,006 [INFO] src: Translation chunk #1 attempt 2 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:27:29,019 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD636BA0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:27:29,020 [INFO] src: Translation chunk #1 attempt 2 raw response: {}
+2026-06-17 20:27:29,020 [WARNING] src: LLM translation looked invalid on attempt 2/4; retrying.
+2026-06-17 20:27:29,020 [INFO] src: Translation chunk #1 attempt 3 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:27:33,028 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD637B00>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:27:33,028 [INFO] src: Translation chunk #1 attempt 3 raw response: {}
+2026-06-17 20:27:33,029 [WARNING] src: LLM translation looked invalid on attempt 3/4; retrying.
+2026-06-17 20:27:33,029 [INFO] src: Translation chunk #1 attempt 4 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:27:37,039 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD637350>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:27:37,039 [INFO] src: Translation chunk #1 attempt 4 raw response: {}
+2026-06-17 20:27:37,040 [WARNING] src: LLM translation looked invalid on attempt 4/4; retrying.
+2026-06-17 20:27:37,040 [ERROR] src: LLM translation failed; returning original chunk.
+2026-06-17 20:27:37,040 [INFO] src: Translation chunk #2 attempt 1 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+2026-06-17 20:27:41,051 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD636330>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:27:41,052 [INFO] src: Translation chunk #2 attempt 1 raw response: {}
+2026-06-17 20:27:41,052 [WARNING] src: LLM translation looked invalid on attempt 1/4; retrying.
+2026-06-17 20:27:41,052 [INFO] src: Translation chunk #2 attempt 2 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:27:45,060 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD5D5790>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:27:45,061 [INFO] src: Translation chunk #2 attempt 2 raw response: {}
+2026-06-17 20:27:45,061 [WARNING] src: LLM translation looked invalid on attempt 2/4; retrying.
+2026-06-17 20:27:45,061 [INFO] src: Translation chunk #2 attempt 3 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:27:49,071 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FCB924B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:27:49,072 [INFO] src: Translation chunk #2 attempt 3 raw response: {}
+2026-06-17 20:27:49,072 [WARNING] src: LLM translation looked invalid on attempt 3/4; retrying.
+2026-06-17 20:27:49,072 [INFO] src: Translation chunk #2 attempt 4 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:27:53,086 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD636DE0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:27:53,086 [INFO] src: Translation chunk #2 attempt 4 raw response: {}
+2026-06-17 20:27:53,087 [WARNING] src: LLM translation looked invalid on attempt 4/4; retrying.
+2026-06-17 20:27:53,087 [ERROR] src: LLM translation failed; returning original chunk.
+2026-06-17 20:27:53,087 [INFO] src: Translation chunk #3 attempt 1 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+2026-06-17 20:27:57,101 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD634290>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:27:57,102 [INFO] src: Translation chunk #3 attempt 1 raw response: {}
+2026-06-17 20:27:57,102 [WARNING] src: LLM translation looked invalid on attempt 1/4; retrying.
+2026-06-17 20:27:57,102 [INFO] src: Translation chunk #3 attempt 2 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:28:01,111 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD636270>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:01,112 [INFO] src: Translation chunk #3 attempt 2 raw response: {}
+2026-06-17 20:28:01,112 [WARNING] src: LLM translation looked invalid on attempt 2/4; retrying.
+2026-06-17 20:28:01,112 [INFO] src: Translation chunk #3 attempt 3 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:28:05,118 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD637110>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:05,118 [INFO] src: Translation chunk #3 attempt 3 raw response: {}
+2026-06-17 20:28:05,119 [WARNING] src: LLM translation looked invalid on attempt 3/4; retrying.
+2026-06-17 20:28:05,119 [INFO] src: Translation chunk #3 attempt 4 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:28:09,135 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD635970>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:09,135 [INFO] src: Translation chunk #3 attempt 4 raw response: {}
+2026-06-17 20:28:09,136 [WARNING] src: LLM translation looked invalid on attempt 4/4; retrying.
+2026-06-17 20:28:09,136 [ERROR] src: LLM translation failed; returning original chunk.
+2026-06-17 20:28:09,136 [INFO] src: Translation chunk #4 attempt 1 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+2026-06-17 20:28:13,146 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD635D30>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:13,146 [INFO] src: Translation chunk #4 attempt 1 raw response: {}
+2026-06-17 20:28:13,146 [WARNING] src: LLM translation looked invalid on attempt 1/4; retrying.
+2026-06-17 20:28:13,146 [INFO] src: Translation chunk #4 attempt 2 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:28:17,168 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FCB92D20>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:17,169 [INFO] src: Translation chunk #4 attempt 2 raw response: {}
+2026-06-17 20:28:17,169 [WARNING] src: LLM translation looked invalid on attempt 2/4; retrying.
+2026-06-17 20:28:17,169 [INFO] src: Translation chunk #4 attempt 3 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:28:21,195 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD635CD0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:21,195 [INFO] src: Translation chunk #4 attempt 3 raw response: {}
+2026-06-17 20:28:21,195 [WARNING] src: LLM translation looked invalid on attempt 3/4; retrying.
+2026-06-17 20:28:21,196 [INFO] src: Translation chunk #4 attempt 4 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:28:25,208 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD636B40>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:25,209 [INFO] src: Translation chunk #4 attempt 4 raw response: {}
+2026-06-17 20:28:25,209 [WARNING] src: LLM translation looked invalid on attempt 4/4; retrying.
+2026-06-17 20:28:25,209 [ERROR] src: LLM translation failed; returning original chunk.
+2026-06-17 20:28:25,209 [INFO] src: Translation chunk #5 attempt 1 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+2026-06-17 20:28:29,219 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD636C30>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:29,220 [INFO] src: Translation chunk #5 attempt 1 raw response: {}
+2026-06-17 20:28:29,220 [WARNING] src: LLM translation looked invalid on attempt 1/4; retrying.
+2026-06-17 20:28:29,220 [INFO] src: Translation chunk #5 attempt 2 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:28:33,228 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD635820>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:33,229 [INFO] src: Translation chunk #5 attempt 2 raw response: {}
+2026-06-17 20:28:33,229 [WARNING] src: LLM translation looked invalid on attempt 2/4; retrying.
+2026-06-17 20:28:33,229 [INFO] src: Translation chunk #5 attempt 3 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:28:37,236 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD635370>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:37,237 [INFO] src: Translation chunk #5 attempt 3 raw response: {}
+2026-06-17 20:28:37,237 [WARNING] src: LLM translation looked invalid on attempt 3/4; retrying.
+2026-06-17 20:28:37,237 [INFO] src: Translation chunk #5 attempt 4 prompt:
+You are a precise technical translator.
+Convert the Markdown content delimited by <MARKDOWN> and </MARKDOWN> into Russian (русский).
+STRICT RULES:
+- Preserve Markdown structure, LaTeX math, code fences, HTML spans/anchors, metadata.
+- Do NOT translate inside fenced code blocks, LaTeX, HTML attributes, identifiers.
+- Output ONLY the translated Markdown, no explanations, greetings, or confirmations.
+- Do not wrap the answer in XML/JSON or repeat the prompt.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+
+REMINDER: Output ONLY the translated Markdown in Russian with no extra comments.
+2026-06-17 20:28:41,243 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD634E60>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:41,244 [INFO] src: Translation chunk #5 attempt 4 raw response: {}
+2026-06-17 20:28:41,244 [WARNING] src: LLM translation looked invalid on attempt 4/4; retrying.
+2026-06-17 20:28:41,244 [ERROR] src: LLM translation failed; returning original chunk.
+2026-06-17 20:28:41,244 [INFO] src: Post-edit chunk #1 attempt 1 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+2026-06-17 20:28:45,252 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD635910>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:45,252 [INFO] src: Post-edit chunk #1 attempt 1 raw response: {}
+2026-06-17 20:28:45,253 [INFO] src: Post-edit chunk #1 attempt 2 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+not a target operator since its left child is an operator "\u2212"). We include 17 common calculation operators/functions (see Appendix [A\)](#page-11-0) covered in spreadsheet formulas in this task. The NCP objective Lnc is the multi-class cross entropy loss.
+
+Formula MLM To encode formulas, we expand 41 tokens in the vocabulary for all four formula token types, covering 99.1% formulas in corpus. Added tokens are listed in Appendix [A.](#page-11-0) Note that a special case is the CELL type, like D4, because it references another cell. Since referenced cells can be anywhere in a large table, it is infeasible to explicitly insert all cell positions into the vocabulary. Thus, for CELL type token in formula, we use a [RANGE] tag as input token and copy all cell-level embeddings (position, format, numeric, ...) from the referenced cell to this CELL type token.
+
+
+</MARKDOWN>
+2026-06-17 20:28:49,264 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD634680>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:49,265 [INFO] src: Post-edit chunk #1 attempt 2 raw response: {}
+2026-06-17 20:28:49,265 [WARNING] src: Post-edit failed for chunk #1; keeping original chunk.
+2026-06-17 20:28:49,265 [INFO] src: Post-edit chunk #2 attempt 1 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+2026-06-17 20:28:53,272 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD637830>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:53,272 [INFO] src: Post-edit chunk #2 attempt 1 raw response: {}
+2026-06-17 20:28:53,273 [INFO] src: Post-edit chunk #2 attempt 2 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+We then apply MLM to formula tokens. Masking and recovering operators/functions is straightforward. When masking or recovering a referenced cell in a formula, we need to avoid label leakage from embeddings of the referenced cell. Thus, to mask a referenced cell, besides using the [MASK] token embedding, the number embedding is set to default to mask the number, and the position and format embeddings are set to the same as the formula cell. To recover a masked referenced cell tr, the cell t (i) in input sequence with the highest probability p (i) = Softmax(f(tr, t (i) )) is selected as the predicted cell, where t is output cell embedding of the encoder and f(·) is a two-layer classification module. The objective Lfmlm is calculated as the sum of cross entropy loss over operator/function recovery and referenced cell recovery.
+
+Finally, the total pretraining objective is
+
+$$\mathcal{L} = \mathcal{L}_{nr} + \mathcal{L}_{nc} + \mathcal{L}_{fmlm} \tag{1}$$
+
+</MARKDOWN>
+2026-06-17 20:28:57,284 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD635DC0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:28:57,284 [INFO] src: Post-edit chunk #2 attempt 2 raw response: {}
+2026-06-17 20:28:57,284 [WARNING] src: Post-edit failed for chunk #2; keeping original chunk.
+2026-06-17 20:28:57,285 [INFO] src: Post-edit chunk #3 attempt 1 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+2026-06-17 20:29:01,300 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0EC800>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:29:01,300 [INFO] src: Post-edit chunk #3 attempt 1 raw response: {}
+2026-06-17 20:29:01,301 [INFO] src: Post-edit chunk #3 attempt 2 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+
+## 4 Experiments
+
+In this section, we describe the pretraining details and validate the effectiveness of FORTAP on three downstream tasks: formula prediction, question answering, and cell type classification. The statistics of datasets we use are listed in Table [1.](#page-4-0)
+
+## 4.1 Pretrain Implementation
+
+We initialize FORTAP with parameters of the pretrained TUTA. The input is linearized following TUTA by concatenating the text (the prompt built in NRP pretraining task) and the flattened table traversed in row order. Due to memory limit, we only
+
+<span id="page-4-0"></span>
+
+<table><tbody><tr><th>Dataset</th><th>Enron</th><th>HiTab</th><th>DeEx</th></tr><tr><td># samples (train/dev/test)</td><td>125k<br/>(formulas)</td><td>10.6k<br/>(questions)</td><td>711k<br/>(cells)</td></tr><tr><td>% hierarchical tables<br/>Avg. rows per table</td><td>51.0%<br/>25.7</td><td>98.1%<br/>17.1</td><td>43.7%<br/>220.2</td></tr><tr><td>Avg. columns per table<br/>Avg. formula sketch length</td><td>12.4</td><td>8.2</td><td>12.7</td></tr><tr><td>Avg. op/func per formula</td><td>4.13<br/>1.62</td><td>-<br/>-</td><td></td></tr></tbody></table>
+
+</MARKDOWN>
+2026-06-17 20:29:05,312 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD637740>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:29:05,313 [INFO] src: Post-edit chunk #3 attempt 2 raw response: {}
+2026-06-17 20:29:05,313 [WARNING] src: Post-edit failed for chunk #3; keeping original chunk.
+2026-06-17 20:29:05,313 [INFO] src: Post-edit chunk #4 attempt 1 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+2026-06-17 20:29:09,322 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD637830>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:29:09,322 [INFO] src: Post-edit chunk #4 attempt 1 raw response: {}
+2026-06-17 20:29:09,323 [INFO] src: Post-edit chunk #4 attempt 2 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+
+Table 1: Statistics of downstream datasets.
+
+place (1) header cells, (2) data cells on the same row/column of the formula cell, into the input sequence and skip the other cells. Our input pattern is reasonable as a tradeoff between performance and memory since we find that more than 89% formulas only reference cells on the same row/column. To match different downstream tasks, for the cell with formula, we input its formula token sequence (e.g. (C4-B4)/B4) with 40% probability, formula tag [FORMULA] with 30% (the number embedding is set to default) and cell literal value with 30% (e.g. number 42.1). In experiments, we find it is more effective in Formula MLM to mask either all operators/functions or all referenced cells, so we implement it this way. We first pretrain 400K steps on sequence length 256 with batch size 32, and 250K steps on sequence length 512 with batch size 8. The whole pretraining phase takes about 4 days on 4 Tesla V100 GPUs.
+
+
+</MARKDOWN>
+2026-06-17 20:29:13,330 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD635520>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:29:13,330 [INFO] src: Post-edit chunk #4 attempt 2 raw response: {}
+2026-06-17 20:29:13,330 [WARNING] src: Post-edit failed for chunk #4; keeping original chunk.
+2026-06-17 20:29:13,330 [INFO] src: Post-edit chunk #5 attempt 1 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+2026-06-17 20:29:17,344 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD0ECF20>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:29:17,345 [INFO] src: Post-edit chunk #5 attempt 1 raw response: {}
+2026-06-17 20:29:17,345 [INFO] src: Post-edit chunk #5 attempt 2 prompt:
+You are a meticulous editor.
+Polish the Markdown between <MARKDOWN> and </MARKDOWN> which is already in Russian.
+Fix spacing, duplicated fragments, tables, leftover foreign words, punctuation, and obvious hallucinated artifacts,
+but DO NOT delete sentences, do not summarize, and do not remove math, tables, links, or HTML tags.
+Preserve structure exactly and return only the corrected Markdown.
+
+<MARKDOWN>
+## 4.2 Formula Prediction
+
+Formula prediction [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0) facilitates spreadsheet end-users by recommending formulas since writing formulas could be time-consuming and error-prone. Given a table and a target cell in table, the task is to predict a formula for the target cell. Formula prediction requires complex in-table numerical reasoning capabilities to predict both referenced cells and involved calculations.
+
+Datasets. Enron [\(Hermans and Murphy-Hill\)](#page-9-0) is a massive database of public Excel Spreadsheet, containing over 17K spreadsheets with rich table structures and formula types. We exclude Enron from our pretraining corpus to prevent data leakage. Tables and formulas are preprocessed in the same way as the pretraining corpus. We divide Enron by sheet and the final dataset contains 100.3K/12.3K/12.9K table-formula pairs for train/dev/test. The formula cell in table is regarded as the target cell and the formula is seen as the ground truth in formula prediction task. We follow the evaluation metrics in Spreadsheet-Coder [\(Chen](#page-8-0) *et al.*, [2021a\)](#page-8-0): (1) Formula Accu-
+</MARKDOWN>
+2026-06-17 20:29:21,353 [WARNING] src: Ollama inference failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000146FD637CE0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2026-06-17 20:29:21,353 [INFO] src: Post-edit chunk #5 attempt 2 raw response: {}
+2026-06-17 20:29:21,353 [WARNING] src: Post-edit failed for chunk #5; keeping original chunk.
+2026-06-17 20:29:21,354 [INFO] src: Translated markdown output to Russian using OllamaService

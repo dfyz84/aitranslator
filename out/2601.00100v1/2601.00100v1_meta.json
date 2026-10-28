@@ -1,0 +1,133 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Learning Speech Representations with Variational Predictive Coding",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          87.94200134277344,
+          70.71484375
+        ],
+        [
+          509.6055908203125,
+          70.71484375
+        ],
+        [
+          509.6055908203125,
+          85.13818359375
+        ],
+        [
+          87.94200134277344,
+          85.13818359375
+        ]
+      ]
+    },
+    {
+      "title": "Sung-Lin Yeh Peter Bell Hao Tang",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          185.958984375,
+          104.0166015625
+        ],
+        [
+          414.697265625,
+          104.0166015625
+        ],
+        [
+          413.533203125,
+          116.97235107421875
+        ],
+        [
+          184.794921875,
+          116.97235107421875
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          158.021484375,
+          205.1552734375
+        ],
+        [
+          203.37628173828125,
+          205.1552734375
+        ],
+        [
+          203.37628173828125,
+          218.38934326171875
+        ],
+        [
+          158.021484375,
+          218.38934326171875
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.298828125,
+          529.2370300292969
+        ],
+        [
+          154.81365966796875,
+          527.89453125
+        ],
+        [
+          154.81365966796875,
+          541.1922302246094
+        ],
+        [
+          71.298828125,
+          541.1922302246094
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          231
+        ],
+        [
+          "Line",
+          89
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\2601.00100v1"
+}

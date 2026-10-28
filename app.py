@@ -1,4 +1,4 @@
-from src.scripts.run_streamlit_app import streamlit_app_cli
+from src.scripts.server import server_cli
 
 if __name__ == "__main__":
-    streamlit_app_cli()
+    server_cli()

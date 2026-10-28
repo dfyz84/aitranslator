@@ -1,5 +1,7 @@
 import base64
 import os
+import shutil
+import subprocess
 import tempfile
 import traceback
 
@@ -62,6 +64,16 @@ class PowerPointProvider(PdfProvider):
             os.remove(self.temp_pdf_path)
 
     def convert_pptx_to_pdf(self, filepath):
+        try:
+            self._convert_pptx_to_pdf_with_weasyprint(filepath)
+        except Exception as e:
+            logger.warning(
+                "PPTX conversion via WeasyPrint failed, falling back to LibreOffice: %s",
+                e,
+            )
+            self._convert_pptx_to_pdf_with_libreoffice(filepath)
+
+    def _convert_pptx_to_pdf_with_weasyprint(self, filepath):
         from weasyprint import CSS, HTML
         from pptx import Presentation
         from pptx.enum.shapes import MSO_SHAPE_TYPE
@@ -108,6 +120,59 @@ class PowerPointProvider(PdfProvider):
         HTML(string=html).write_pdf(
             self.temp_pdf_path, stylesheets=[CSS(string=css), self.get_font_css()]
         )
+
+    def _convert_pptx_to_pdf_with_libreoffice(self, filepath: str) -> None:
+        soffice_path = self._find_soffice()
+        if soffice_path is None:
+            raise RuntimeError(
+                "LibreOffice (soffice) is not installed or not found in PATH."
+            )
+
+        with tempfile.TemporaryDirectory() as temp_output_dir:
+            command = [
+                soffice_path,
+                "--headless",
+                "--convert-to",
+                "pdf",
+                "--outdir",
+                temp_output_dir,
+                filepath,
+            ]
+            completed = subprocess.run(
+                command,
+                check=False,
+                capture_output=True,
+                text=True,
+                timeout=300,
+            )
+            if completed.returncode != 0:
+                raise RuntimeError(
+                    "LibreOffice conversion failed: "
+                    f"{completed.stderr.strip() or completed.stdout.strip() or completed.returncode}"
+                )
+
+            output_pdf = os.path.join(
+                temp_output_dir,
+                f"{os.path.splitext(os.path.basename(filepath))[0]}.pdf",
+            )
+            if not os.path.exists(output_pdf):
+                raise RuntimeError(
+                    "LibreOffice finished without producing the expected PDF file."
+                )
+
+            shutil.copyfile(output_pdf, self.temp_pdf_path)
+
+    @staticmethod
+    def _find_soffice() -> str | None:
+        candidates = [
+            shutil.which("soffice"),
+            r"C:\Program Files\LibreOffice\program\soffice.exe",
+            r"C:\Program Files (x86)\LibreOffice\program\soffice.exe",
+        ]
+        for candidate in candidates:
+            if candidate and os.path.exists(candidate):
+                return candidate
+        return None
 
     def _handle_group(self, group_shape) -> str:
         """

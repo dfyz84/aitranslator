@@ -64,11 +64,10 @@ model_dict = load_models()
 cli_options = parse_args()
 
 st.markdown("""
-# Marker Demo
+# AI Translator
 
-This app will let you try src, a PDF or image -> Markdown, HTML, JSON converter. It works with any language, and extracts images, tables, equations, etc.
-
-Find the project [here](https://github.com/VikParuchuri/marker).
+Интерфейс для интеллектуальной обработки документов, конвертации в Markdown,
+HTML, JSON или chunks, а также проверки результата на отдельных страницах.
 """)
 
 in_file: UploadedFile = st.sidebar.file_uploader(
@@ -96,21 +95,21 @@ page_range = st.sidebar.text_input(
 output_format = st.sidebar.selectbox(
     "Output format", ["markdown", "json", "html", "chunks"], index=0
 )
-run_marker = st.sidebar.button("Run Marker")
+run_marker = st.sidebar.button("Обработать документ")
 
 use_llm = st.sidebar.checkbox(
-    "Use LLM", help="Use LLM for higher quality processing", value=False
+    "Использовать LLM", help="Повышает качество обработки сложных блоков", value=False
 )
-force_ocr = st.sidebar.checkbox("Force OCR", help="Force OCR on all pages", value=False)
+force_ocr = st.sidebar.checkbox("Принудительный OCR", help="Распознавать все страницы заново", value=False)
 strip_existing_ocr = st.sidebar.checkbox(
-    "Strip existing OCR",
-    help="Strip existing OCR text from the PDF and re-OCR.",
+    "Удалить существующий OCR",
+    help="Удалить встроенный OCR-текст из PDF и распознать документ заново.",
     value=False,
 )
-debug = st.sidebar.checkbox("Debug", help="Show debug information", value=False)
+debug = st.sidebar.checkbox("Отладка", help="Показать отладочную информацию", value=False)
 disable_ocr_math = st.sidebar.checkbox(
-    "Disable math",
-    help="Disable math in OCR output - no inline math",
+    "Отключить распознавание формул",
+    help="Не распознавать inline math в OCR-выводе",
     value=False,
 )
 

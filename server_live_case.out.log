@@ -1,0 +1,9 @@
+INFO:     127.0.0.1:58530 - "POST /src/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64762 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59923 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:59923 - "POST /src/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60556 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59584 - "GET /favicon.ico HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:59584 - "POST /src/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58039 - "POST /src/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50537 - "POST /src/upload HTTP/1.1" 200 OK
